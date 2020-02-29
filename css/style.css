@@ -186,4 +186,12 @@ footer .flex {
 
 footer .flex-right {
     text-align: right;
+    color:white;
+    font-size: 30px;
+}
+
+footer .footertxt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
 }
