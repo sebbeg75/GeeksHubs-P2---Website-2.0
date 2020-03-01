@@ -237,6 +237,44 @@ main .iconos{
     margin: 10px 0;
 }
 
+.portafolio{
+    background: gainsboro;
+    padding: 60px 0;
+}
+
+.contenedor-textos-portafolio{
+    text-align: center;
+}
+
+.contenedor-textos-portafolio .titulo-portafolio{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contenedor-textos-portafolio .parrafo-portafolio{
+    font-weight: normal;
+    color: #999999;
+    margin-bottom: 60px;
+}
+
+.portafolio .contenedor-portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portafolio .contenedor-portafolio img{
+    width: 32%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.portafolio .contenedor-portafolio img:hover{
+    opacity: .6;
+}
+
 footer {
     background-color: black;
 }
