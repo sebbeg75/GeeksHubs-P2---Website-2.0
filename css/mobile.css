@@ -1,0 +1,23 @@
+/* moviles */
+
+@media (max-width:576px) {
+    .section1 .grid2 {
+        display: inline;
+    }
+
+    .section2 .grid3 {
+        display: inline;
+    }
+
+}
+
+/* tablets */
+
+@media (max-width:768px) {
+}
+
+@media (max-width:992px) {
+}
+
+@media (max-width:1200px) {
+}

@@ -37,6 +37,22 @@ header{
     background-position: center;
 }
 
+.header1{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/bg-hero9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header2{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 header .menu{
     display: flex;
     justify-content: flex-end;
@@ -161,6 +177,7 @@ h1 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 10px;
+    margin-bottom: 20px;
 }
 
 .section2 h3{
@@ -319,4 +336,9 @@ footer .footertxt {
     margin-top: 20px;
     margin-bottom: 20px;
     color:white;
+}
+
+.contenedor-iconos .icono-individual2{
+    font-size: xx-large;
+    color: red;
 }
