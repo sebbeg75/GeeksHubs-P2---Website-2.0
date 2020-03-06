@@ -9,11 +9,18 @@
         display: inline;
     }
 
+    header .btn {
+        margin-top: 0px;
+    }
 }
 
 /* tablets */
 
 @media (max-width:768px) {
+    .contenedor-iconos{
+        display: inline;
+        
+    }
 }
 
 @media (max-width:992px) {
