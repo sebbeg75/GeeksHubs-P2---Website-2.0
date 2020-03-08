@@ -21,12 +21,9 @@ a {
     overflow: hidden;
 }
 
-.ancho-form{
-    padding: 5vh 15vw;
-}
-
 .seccion-registro{
     background: #f5f4f4;
+    padding: 50px;
 }
 
 header{
@@ -56,6 +53,13 @@ header{
 header .menu{
     display: flex;
     justify-content: flex-end;
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+header .menu2{
+    display: flex;
+    justify-content: flex-start;
     margin: 20px 0;
     border-bottom: 1px solid white;
 }
@@ -105,6 +109,12 @@ h1 {
     color:white;
 }
 
+.bmi{
+    font-size: 30px;
+    color: #111111;
+    padding: 0%;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -115,10 +125,16 @@ h1 {
     margin-bottom: 50px;
 }
 
+.section1 .bmi{
+    font-size: 30px;
+    color: #111111;
+    padding: 0%;
+}
+
 .section1 .grid2 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
+    grid-gap: 30px;
 }
 
 .section1 .t-black {
@@ -232,7 +248,6 @@ h1 {
 	background: -o-linear-gradient(left, #eb3c5a, #f67831);
 	background: linear-gradient(to right, #eb3c5a, #f67831);
 	border: none;
-	padding: 12px 0;
 	cursor: pointer;
 	margin-top: 30px;
 }
@@ -342,3 +357,34 @@ footer .footertxt {
     font-size: xx-large;
     color: red;
 }
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 12px;
+        color: black;
+        text-align: center;
+        width: 180px;
+        height: 46px;
+        border-left: 2px solid #eb3c5a;
+        border-right: 2px solid #f67831;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-position: 0 0, 0 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 2px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831)), -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831));
+        background-image: -o-linear-gradient(left, #eb3c5a 0%, #f67831 100%), -o-linear-gradient(left, #eb3c5a 0%, #f67831 100%);
+        background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+        line-height: 45px;
+        position: relative;
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .col-lg-8 {
+        max-width: 100%;
+    }
+    

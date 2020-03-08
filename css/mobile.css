@@ -12,6 +12,12 @@
     header .btn {
         margin-top: 0px;
     }
+
+    .contenedor-iconos .icono-individual{
+        width: 100%;
+    }
+    
+    
 }
 
 /* tablets */
@@ -19,12 +25,12 @@
 @media (max-width:768px) {
     .contenedor-iconos{
         display: inline;
-        
     }
+
+    .contenedor-iconos .icono-individual{
+        width: 100%;
+    }
+    
 }
 
-@media (max-width:992px) {
-}
 
-@media (max-width:1200px) {
-}
